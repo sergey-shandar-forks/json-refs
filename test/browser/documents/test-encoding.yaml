@@ -1,0 +1,7 @@
+foo@bar: 3
+
+ref:
+  $ref: '#/foo@bar'
+
+refEncoding:
+  $ref: '#/foo%40bar'
